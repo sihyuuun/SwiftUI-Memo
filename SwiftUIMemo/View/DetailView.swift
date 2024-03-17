@@ -20,7 +20,7 @@ struct DetailView: View {
     var body: some View {
         VStack {
             ScrollView {
-                VStack {    // 여기에 포함된 내용이 화면을 벗어나면 자동으로 스크롤됨
+                VStack {
                     HStack {
                         Text(memo.content)
                             .padding()
